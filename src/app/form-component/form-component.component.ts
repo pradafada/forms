@@ -11,9 +11,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './form-component.component.css'
 })
 export class FormComponentComponent {
-  //submit function
-  submit() {
-    console.log("Form Submitted")
+  //submit function. want Login to be ngForm
+  submit(login: any) {
+    console.log("Form Submitted", login)
   }
 
 }
